@@ -7,5 +7,9 @@ Current List of Works:
    * Hash Tables
    * Queues/Stacks
    * Heaps
-  
+   
+2. Unity Projects (Programmed in C#)
+   * Finite State Machine
+   * Singleton Patterns
+   
 (This will be updated to include other works)
