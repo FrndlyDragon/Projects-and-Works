@@ -1,0 +1,12 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[SerializeField]
+public class DialogueObject
+{
+    public string npcName;
+    public string[] dialogue;
+
+    
+}
