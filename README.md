@@ -12,3 +12,6 @@ Current List of Works:
    * Finite State Machine
    * Singleton Patterns
    * Simple Node Based Diaslogue System
+
+3. Algorithms
+   * Huffman Encoding with Naive Canonical Coding
