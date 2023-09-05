@@ -11,7 +11,8 @@ Current List of Works:
 2. Unity Projects (Programmed in C#)
    * Finite State Machine
    * Singleton Patterns
-   * Simple Node Based Diaslogue System
+   * Simple Node Based Dialogue System
+   * Context-Based Steering
 
 3. Algorithms
    * Huffman Encoding with Naive Canonical Coding
