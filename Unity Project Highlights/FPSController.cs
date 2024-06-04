@@ -76,13 +76,11 @@ public class FPSController : MonoBehaviour
     float velocity;
 
     #region Input Buffers
-    private float jumpBuffer = 0.2f;
-    private float slideBuffer = 0.2f;
-    private float sprintBuffer = 0.2f;
-    private float coyoteBuffer = 0.2f;
+    private float jumpBuffer = 0.2f; //Small period of time where jump input is read. When player lands, jump is immediately executed.
+    private float sprintBuffer = 0.2f; //Small period of time where player can still be considered sprinting.
+    private float coyoteBuffer = 0.2f; //Gives players a small period of time where they can still jump despite not being grounded.
 
     private float jumpBufferCounter;
-    private float slideBufferCounter;
     private float sprintBufferCounter;
     private float coyoteBufferCounter;
     #endregion
@@ -114,6 +112,7 @@ public class FPSController : MonoBehaviour
         Slide();
     }
 
+    //Move script that handles 2D movement. Handles velocities for wall running as well.
     private void Move()
     {
         Vector3 horzMovement = characterObject.right * GameInputs.instance.HorizontalInput().x + characterObject.forward * GameInputs.instance.HorizontalInput().y;
@@ -178,6 +177,7 @@ public class FPSController : MonoBehaviour
         characterCamera.localRotation = Quaternion.Euler(headRotation, 0f, 0f);
 
         playerGlobal.position = transform.position;
+        //If player is not wall running, we rotate the body as well.
         if (!isWallRunning) {
             playerGlobal.rotation = characterObject.rotation;
         }
@@ -212,7 +212,7 @@ public class FPSController : MonoBehaviour
         }
 
         if (isCrouching) {
-            if (characterCamera.localPosition == crouchCamPos) {
+            if (characterCamera.localPosition == crouchCamPos) { //If player is already crouching, don't do anything.
                 return;
             }
             characterCamera.localPosition = crouchCamPos;
