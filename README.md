@@ -11,3 +11,7 @@ Current List of Works:
    * CRUD app using Electron wrapper (HTML, JS, CSS)
    * Agile Workflow
    * User Centric Design
+3) [Spatial Similarity Task](https://github.com/Spatial-Similarity-Task/SST)
+   * Unity research focus memory game
+   * Design Patterns
+  
