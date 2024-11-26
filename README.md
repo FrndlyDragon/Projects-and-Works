@@ -20,4 +20,3 @@ Current List of Works:
    * [Lofi Prototype](https://www.figma.com/design/h7swdhfM1uoUB8Ry7fltN9/Lofi-Word-Processor?t=poqS4HIUXxGMvUI8-1)(Figma)
    * [Hifi Prototype and Workflow](https://www.figma.com/proto/ua5kkpUiKvvCL4vqhNyG5c/Word-Processor---HiFi?t=91BxtJmRDJ3Rjtit-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=98-322)(Figma)
    * User Centered Design
-   *  
