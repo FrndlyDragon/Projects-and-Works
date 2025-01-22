@@ -20,3 +20,6 @@ Current List of Works:
    * [Lofi Prototype](https://www.figma.com/design/h7swdhfM1uoUB8Ry7fltN9/Lofi-Word-Processor?t=poqS4HIUXxGMvUI8-1)(Figma)
    * [Hifi Prototype and Workflow](https://www.figma.com/proto/ua5kkpUiKvvCL4vqhNyG5c/Word-Processor---HiFi?t=91BxtJmRDJ3Rjtit-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=98-322)(Figma)
    * User Centered Design
+5) [Genre Detector](https://github.com/brandoluu/CSE_151A_Project/tree/main)
+   * Class AI project to parse and attempt to identify the genre of a song from the MIDI file data
+   * Implemented using Python libraries such as Numpy, Pandas, SKLearn as well as hand programmed preprocessing techniques
