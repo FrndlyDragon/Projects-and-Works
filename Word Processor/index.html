@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css" rel="stylesheet">
+        <link href="mystyle.css" rel="stylesheet">
+        <script src="myjs.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
+    </head>
+    <body>
+        <div id="sidebar-element">
+            <div id="sidebar">
+                <div id="title">Title</div>
+                <hr>
+                <div class="chapter">
+                    1. Chapter 1
+                </div>
+                <div class="sub-chapter">
+                    1.1 Once upon a time...
+                </div>
+                <hr>
+            </div>
+            <button id="sidebar-button" onclick="toggleSidebar()"><img id="open-icon" src="https://cdn-icons-png.flaticon.com/512/32/32213.png"></button>
+        </div>
+        <div id="editing-space">
+            <div id="toolbar">
+                <span class="ql-formats">
+                    <a href="home.html">
+                        <button id="home-button" type="button"><img id="home-icon" src="https://cdn-icons-png.flaticon.com/512/25/25694.png"></button>
+                    </a>
+                    <button id="save-button" type="button"><img id="save-icon" src="https://cdn-icons-png.flaticon.com/256/376/376218.png"></button>
+                </span>
+                <span class="ql-formats">
+                    <div id="vl"></div>
+                </span>
+                <span class="ql-formats">
+                    <select class="ql-font"></select>
+                </span>
+                <span class="ql-formats">
+                    <div id="vl"></div>
+                </span>
+                <span class="ql-formats">
+                    <select class="ql-size"></select>
+                </span>
+                <span class="ql-formats">
+                    <div id="vl"></div>
+                </span>
+                <span class="ql-formats">
+                    <button class="ql-bold"></button>
+                    <button class="ql-italic"></button>
+                    <button class="ql-underline"></button>
+                    <button class="ql-strike"></button>
+                </span>
+                <span class="ql-formats">
+                    <div id="vl"></div>
+                </span>
+                <span class="ql-formats">
+                    <button class="ql-list" value="ordered"></button>
+                    <button class="ql-list" value="bullet"></button>
+                    <button class="ql-indent" value="-1"></button>
+                    <button class="ql-indent" value="+1"></button>
+                </span>
+                <span class="ql-formats">
+                    <div id="vl"></div>
+                </span>
+                <span class="ql-formats">
+                    <select class="ql-align"></select>
+                </span>
+                <span class="ql-formats">
+                    <div id="vl"></div>
+                </span>
+                <span class="ql-formats" style="float: right;">
+                    <a href="help.html">
+                        <button id="help-button"><img id="help-icon" src="https://icons.veryicon.com/png/o/miscellaneous/template-3/help-127.png"></button>
+                    </a>
+                    <a href="settings.html">
+                        <button id="settings-button"><img id="settings-icon" src="https://static-00.iconduck.com/assets.00/settings-icon-245x256-yljp2dn9.png"></button>
+                    </a>
+                </span>
+            </div>
+            <div id="editor">
+              
+            </div>
+        </div>
+    </body>
+</html>
