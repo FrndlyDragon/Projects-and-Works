@@ -1,0 +1,148 @@
+.ql-toolbar.ql-snow {
+    border: none !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: gray !important;
+    position: fixed !important;
+}
+
+body {
+    margin: 0 0 0 0 !important;
+}
+
+#editing-space {
+    height: 100%;
+    top: 32 !important;
+}
+
+#vl {
+    height: 20px;
+    width: .5px;
+    float: left;
+    background-color: black;
+}
+
+.ql-container.ql-snow {
+    position: fixed;
+    border: none !important;
+}
+
+.ql-container {
+    top: 40 !important;
+    left: 25%;
+    height: 95.5% !important;
+    width: 75% !important;
+}
+
+.ql-editor {
+    padding: 12px 25% 12px 15px;    
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(251, 251, 251, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 15px;
+}
+
+.ql-toolbar.ql-snow .ql-formats {
+    margin-right: 5px !important;
+}
+
+#home-icon {
+    width: 100%;
+    height: 100%;
+}
+
+#save-icon {
+    width: 100%;
+    height: 100%;
+}
+
+#help-icon {
+    width: 100%;
+    height: 100%;
+}
+
+#settings-icon {
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    top: 40;
+    bottom: 0;
+    left: 0;
+    background-color: #C2BEBE;
+    overflow-x: hidden;
+    margin-right: 5%;
+    padding-bottom: 0;
+    transition: 0.5s;
+}
+
+#sidebar-button {
+    border: none;
+    border-radius: 0 5px 5px 0;
+    position: fixed;
+    padding: 0 0 0 0;
+    left: 15%;
+    top: 50%;
+    height: 8%;
+    width: 2.5%;
+    background-color: #C2BEBE;
+    transition: 0.5s;
+}
+
+#open-icon {
+    width: 60%;
+    height: 40%;
+    transform: scaleX(-1);
+}
+
+#sidebar-button:hover {
+    background-color: #9d9898;
+}
+
+hr {
+    border:solid 1px #7D7979;
+    width: 90%;
+    margin: 0 10 0 10;
+}
+
+#title {
+    padding: 20 15 20 15;
+    font-size: 24px;
+}
+
+.chapter {
+    display: block;
+    padding: 10 15 10 25;
+    font-size: 18px;
+}
+
+.chapter:hover {
+    background-color: #9d9898;
+}
+
+.sub-chapter {
+    display: block;
+    padding: 10 15 10 35;
+    font-size: 14px;
+}
+
+.sub-chapter:hover {
+    background-color: #9d9898;
+}
