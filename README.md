@@ -23,3 +23,5 @@ Current List of Works:
 5) [Genre Detector](https://github.com/brandoluu/CSE_151A_Project/tree/main)
    * Class AI project to parse and attempt to identify the genre of a song from the MIDI file data
    * Implemented using Python libraries such as Numpy, Pandas, SKLearn as well as hand programmed preprocessing techniques
+6) [React Application](https://github.com/FrndlyDragon/Fictologist)
+   * WIP CRUD app made with React and Typescript. 
