@@ -1,0 +1,11 @@
+#header {
+    text-align: center;
+    /*background-color: aqua;*/
+}
+
+#top-bar {
+    display: flex;
+    justify-content: right;
+    gap: 1em;
+    padding: 1em 1em 0 0;
+}
