@@ -27,5 +27,8 @@ Current List of Works:
    * Reinforment learning project for CSE151B
    * Utilizes PyTorch and PyGame to train an agent to play a replication of the game Flappy Bird
    * Used different models for experimenting and testing architectures
+7) [Raven Rescue](https://www.youtube.com/watch?v=fSMugH0-SGY&list=PLCbqBY8nKf4mvZIaf7zPs3VhNzLaXNbob&index=7)
+   * VR Oculus application prototype created in Unity using C# and the Oculus API
+   * Project for CSE165 created along side a team of 4 in collaboration with a team of product designers
 8) [React Application](https://github.com/FrndlyDragon/Fictologist)
    * WIP CRUD app made with React and Typescript.
